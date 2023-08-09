@@ -1,0 +1,11 @@
+get https://sah5m269ae.execute-api.us-east-1.amazonaws.com//hello-world-lambda
+
+###
+
+post https://sah5m269ae.execute-api.us-east-1.amazonaws.com/hello-world-lambda
+Content-Type: application/json
+
+{
+    "firstName": "Jonathan",
+    "lastName": "Zavala"
+}
